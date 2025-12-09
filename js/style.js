@@ -4,7 +4,11 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
 import { getDatabase, ref, push, set, onChildAdded, remove, onChildRemoved }
     from "https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js";
+
+
 // Your web app's Firebase configuration
+//ここにAPIキー
+
 const firebaseConfig = 
 const app = initializeApp(firebaseConfig); //Fire databaseにログイン
 const db = getDatabase(app); //RealtimeDBに接続
