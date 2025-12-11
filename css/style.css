@@ -113,6 +113,14 @@ td {
     transition: background 0.3s;
 }
 
+tr{
+    font:16px;
+    font-weight:bold;
+    color: #ff6b35;
+}
+
+
+
 tr:hover td {
     background: #ffe4b5;
 }
@@ -122,6 +130,8 @@ td a {
     color: #ff6b35;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
+    
 }
 
 td a:hover {
